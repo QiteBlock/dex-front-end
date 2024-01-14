@@ -5,7 +5,7 @@ import Header from "../components/Header"
 
 export default function App({ Component, pageProps }) {
     return (
-        <div className="bg-black h-screen w-full">
+        <div className="bg-black h-full min-h-screen w-full pb-20">
             <Head>
                 <title>Base Front Web3 Project</title>
                 <meta
